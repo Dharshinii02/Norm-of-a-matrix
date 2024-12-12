@@ -16,9 +16,25 @@ mat=np.array(eval(input()))
 ans=np.linalg.norm(mat,1)
 norm_of_matrix="{:.2f}".format(ans)
 print(norm_of_matrix)
+
+import numpy as np
+mat=np.array(eval(input()))
+ans=np.linalg.norm(mat,2)
+norm_of_matrix="{:.2f}".format(ans)
+print(norm_of_matrix)
+
+import numpy as np
+mat=np.array(eval(input()))
+ans=np.linalg.norm(mat,np.inf)
+norm_of_matrix="{:.2f}".format(ans)
+print(norm_of_matrix)
 ```
 ## Output:
 ![Screenshot 2024-11-27 134325](https://github.com/user-attachments/assets/e0525c1a-3012-4949-bf35-c03333adc96b)
+![Screenshot 2024-12-12 211501](https://github.com/user-attachments/assets/190e25b8-750c-4dd6-84a3-1be8365baa4d)
+![Screenshot 2024-12-12 211534](https://github.com/user-attachments/assets/dfde2fb2-e12e-4951-8e60-d6fe44ffb2af)
+
+
 
 ## Result:
 Thus the program for 1-norm, 2-norm and Infinity norm of a matrix are written and verified.
